@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Idea Log & Randomizer – Week 2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Idea Log & Randomizer</h1>
+    <p>Week 2 of my 40 ideas in 40 weeks challenge.</p>
+
+    <section id="add-idea">
+      <h2>Add a new idea</h2>
+      <form id="idea-form">
+        <div class="field">
+          <label for="idea-title">Title</label>
+          <input type="text" id="idea-title" required />
+        </div>
+        <div class="field">
+          <label for="idea-description">Description</label>
+          <textarea id="idea-description" rows="3"></textarea>
+        </div>
+        <button type="submit">Add idea</button>
+      </form>
+    </section>
+
+    <section id="idea-list-section">
+      <h2>My ideas</h2>
+      <ul id="idea-list"></ul>
+    </section>
+
+    <section id="random-idea-section">
+      <h2>Random idea</h2>
+      <button id="random-idea-button">Pick random idea</button>
+      <div id="random-idea-display"></div>
+    </section>
+
+    <footer>
+      <p>Built as part of my learning journey back into software development.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>
